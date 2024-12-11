@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UnshamingYou</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="icon" href="assets/images/unshaming_logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="assets/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+
+	<section class="nav_section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-sm-6">
+					<div class="logo_wrapper">
+						<img src="assets/images/unshaming_logo.png">
+						<span>UnshamingYou</span>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-6">
+					<div class="button_wrapper_outer">
+						<div class="button_wrapper d-none d-sm-none d-md-block d-lg-block">
+							<a href="#schedule_appointment" class="primary_button">
+								Schedule an Appointment
+							</a>
+						</div>
+						<div class="button_wrapper d-block d-sm-block d-md-none d-lg-none">
+							<a href="#schedule_appointment" class="primary_button">
+								Schedule an Appointment
+							</a>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+	<section class="hero_section"
+		style="background-image: url(assets/images/hero_bg.jpg);" 
+	>
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div class="hero_content">
+						<div class="heading_wrapper">
+							<h1>
+								Discover the Unshaming Way to
+								<span class="highlight">
+									Unlock Your Deepest Truths and Transform with Radical Compassion
+								</span>
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="what_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div class="what_content">
+						<div class="heading_wrapper">
+							<h2>
+								What is <span>Unshaming and How Can It Transform Your Life?</span>
+							</h2>
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+						<div class="button_wrapper">
+							<a href="#learn_more_content">
+								Learn More
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="points_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="point_content">
+						<div class="point_wrapper">
+							1
+						</div>
+						<div class="heading_wrapper">
+							<h3>
+								Lorem Ipsum
+							</h3>
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="point_content">
+						<div class="point_wrapper">
+							2
+						</div>
+						<div class="heading_wrapper">
+							<h3>
+								Lorem Ipsum
+							</h3>
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="point_content">
+						<div class="point_wrapper">
+							3
+						</div>
+						<div class="heading_wrapper">
+							<h3>
+								Lorem Ipsum
+							</h3>
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="schedule_appointment" class="what_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-10">
+					<div class="what_content">
+						<div class="heading_wrapper">
+							<h2>
+								<span>Schedule an Appointment</span>
+							</h2>
+						</div>
+						<div class="desc_wrapper schedule_appointment">
+							<!-- Cal inline embed code begins -->
+							<div style="width:100%;height:100%;overflow:scroll;min-height: 350px;" id="my-cal-inline"></div>
+							<!-- Cal inline embed code ends -->
+							<script type="text/javascript">
+								(function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+							        Cal("init", "30min", {origin:"https://cal.com"});
+
+							        Cal.ns["30min"]("inline", {
+							            elementOrSelector:"#my-cal-inline",
+							            config: {"layout":"month_view"},
+							            calLink: "glidecx/30min",
+							        });
+
+							        Cal.ns["30min"]("ui", {"styles":{"branding":{"brandColor":"#178d72"}},"hideEventTypeDetails":false,"layout":"month_view"});
+							</script>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-1"></div>
+			</div>
+		</div>
+	</section>
+
+	<section id="learn_more_content" class="content_section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6">
+					<div class="content_wrapper">
+						<div class="heading_wrapper">
+							<h2>
+								Lorem ipsum dolor sit amet
+							</h2>
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. 
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="image_wrapper" style="background-image: url(https://placehold.co/300x300);">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="testimonials_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="testimonials_content">
+						<div class="image_wrapper">
+							<img src="https://placehold.co/300x300" alt="">
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</p>
+						</div>
+						<div class="name_wrapper">
+							<span><strong>John Doe</strong></span><br>
+							sed do eiusmod tempor incididunt ut
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="testimonials_content">
+						<div class="image_wrapper">
+							<img src="https://placehold.co/300x300" alt="">
+						</div>
+						<div class="desc_wrapper">
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</p>
+						</div>
+						<div class="name_wrapper">
+							<span><strong>John Doe</strong></span><br>
+							sed do eiusmod tempor incididunt ut
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="copyright_content">
+						&copy; 2024 UnshamingYou.com. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

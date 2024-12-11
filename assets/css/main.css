@@ -1,0 +1,378 @@
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+h1, h2, h3
+{
+
+}
+p 
+{
+	font-size: 16px;
+	color: #444;
+}
+
+.hero_section {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 160px 0;
+	position: relative;
+}
+
+.hero_section .overlay
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.hero_content
+{
+	position: relative;
+}
+.hero_content .heading_wrapper
+{
+	position: relative;
+}
+.hero_content .heading_wrapper h1 {
+	color: #fff;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.33;
+	font-size: 37px;
+}
+.hero_content .heading_wrapper h1 span
+{
+	display: block;
+	text-transform: uppercase;
+}
+.hero_content .heading_wrapper h1 span.highlight 
+{
+	color: #fbde21;
+}
+.what_section {
+	background-color: #f1f1f1;
+	padding: 70px 0;
+}
+.what_content
+{
+	position: relative;
+}
+.what_content .heading_wrapper
+{
+	position: relative;
+	margin-bottom: 32px;
+}
+.what_content .heading_wrapper h2 
+{
+	font-size: 32px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.what_content .heading_wrapper h2 span
+{
+	color: #538e8a;
+}
+.what_content .desc_wrapper
+{
+	position: relative;
+}
+.what_content .desc_wrapper p 
+{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.4;
+	font-size: 16px;
+}
+.what_content .button_wrapper 
+{
+	position: relative;
+	text-align: center;
+	margin-top: 35px;
+}
+.what_content .button_wrapper a
+{
+	border: 1px solid #47a095;
+	color: #47a095;
+	padding: 14px 30px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.what_content .button_wrapper a:hover
+{
+	background-color: #538e8a;
+	color: #fff;
+}
+
+.points_section {
+	background-color: #fff;
+	position: relative;
+	padding: 60px 0;
+}
+.point_content 
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.point_content .point_wrapper {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #0ca0a3;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 auto;
+}
+.point_content .heading_wrapper
+{
+	position: relative;
+}
+.point_content .heading_wrapper h3
+{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.point_content .desc_wrapper
+{
+	position: relative;
+}
+.point_content .desc_wrapper p
+{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.testimonials_section
+{
+	background-color: #0ca0a3;
+	padding: 60px 0;
+}
+.testimonials_content 
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: #fff;
+}
+.testimonials_content .image_wrapper
+{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.testimonials_content .image_wrapper img {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	display: block;
+}
+.testimonials_content .desc_wrapper
+{
+	position: relative;
+	text-align: center;
+}
+.testimonials_content .desc_wrapper p
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	color: #fff;
+}
+.testimonials_content .title_wrapper
+{
+	position: relative;
+	text-align: center;
+}
+.testimonials_content .name_wrapper
+{
+	text-align: center;
+}
+footer
+{
+  	padding: 20px 0;
+}
+.copyright_content {
+	position: relative;
+	text-align: center;
+	font-weight: 600;
+	font-size: 14px;
+	color: #777777;
+}
+.what_section .schedule_appointment
+{
+	margin-top: 40px;
+}
+.nav_section {
+	padding: 20px 0;
+}
+.nav_section .logo_wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.nav_section .logo_wrapper span {
+	font-size: 24px;
+	font-weight: 600;
+	color: #538e8a;
+}
+.nav_section .logo_wrapper img {
+	height: 72px;
+}
+.nav_section .button_wrapper_outer
+{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.primary_button {
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	background-color: #538e8a;
+	color: #ffffff;
+	font-size: 15px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	padding: 16px 20px;
+	border-radius: 100px;
+	text-decoration: none;
+}
+.primary_button:hover
+{
+	background-color: #296f6a;
+}
+@media only screen and (max-width: 991px)
+{
+	.hero_section
+	{
+	  	padding: 100px 0;
+	}
+	.points_section .row,
+	.testimonials_section .row
+	{
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+	.content_section .image_wrapper
+	{
+		margin-bottom: 50px;
+	}
+}
+@media only screen and (max-width: 767px)
+{
+	.nav_section .logo_wrapper img
+	{
+	  	height: 46px;
+	}
+	.nav_section .logo_wrapper span
+	{
+		font-size: 19px;
+	}
+	.primary_button
+	{
+	  	padding: 16px 20px;
+	  	font-size: 14px;
+	}
+}
+@media only screen and (max-width: 575px)
+{
+	.nav_section .logo_wrapper
+	{
+		justify-content: center;
+		margin-bottom: 22px;
+		flex-direction: column;
+	}
+	.nav_section .button_wrapper_outer
+	{
+		justify-content: center;
+	}
+	.nav_section .logo_wrapper span
+	{
+		font-size: 22px;
+	}
+	.nav_section .logo_wrapper img
+	{
+	    height: 56px;
+	}
+	.hero_section {
+		padding: 65px 0;
+	}
+	.hero_content .heading_wrapper h1
+	{
+	  	font-size: 32px;
+	}
+	.what_section
+	{
+	  	padding: 56px 0;
+	}
+}
+.content_section
+{
+	position: relative;
+}
+.content_wrapper
+{
+  	padding: 30px 0;
+}
+.content_wrapper .heading_wrapper
+{
+	position: relative;
+}
+.content_wrapper .heading_wrapper h2
+{
+	font-size: 32px;	
+}
+.content_wrapper .desc_wrapper
+{
+	position: relative;
+}
+.content_wrapper .desc_wrapper p,
+.content_wrapper .desc_wrapper ol,
+.content_wrapper .desc_wrapper ul
+{
+	text-align: left;
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+.content_wrapper .desc_wrapper p:last-child,
+.content_wrapper .desc_wrapper ol:last-child,
+.content_wrapper .desc_wrapper ul:last-child
+{
+	margin-bottom: 0;
+}
+.content_section .image_wrapper {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 45% 0;
+}
